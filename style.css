@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.shapes {
+  width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+  border: 3px solid #222;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  background: #f4f4f4;
+}
+
+.control {
+  width: 900px;
+  margin: 100px auto;
+  padding: 24px;
+  border: 3px solid #222;
+  border-radius: 12px;
+  display: flex;
+  gap: 20px;
+  background: #f4f4f4;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 200px;
+  height: 150px;
+  border: #222 solid 2px;
+  transition: 0.5s;
+}
+.btn,
+.btn1 {
+  width: 150px;
+  height: 150px;
+  border: #222 solid 2px;
+}
+
+.shapeCol,
+.bodyCol {
+  display: flex;
+  gap: 25px;
+}
+
+.red {
+  background: red;
+}
+.blue {
+  background: blue;
+}
+.green {
+  background: green;
+}
+.yellow {
+  background: yellow;
+}
+.purple {
+  background: purple;
+}
